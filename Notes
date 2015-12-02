@@ -1,0 +1,20 @@
+Etape 1 : Récupération des pages web
+1) voir script_tp1.sh
+2) tp1.py
+
+Etape 2 : Nettoyage 
+
+Etape 3 : Evaluation intrinsèque cleaneval.py
+
+Etape 4 : Evaluation extrinsèque api
+
+Remarques :
+- HtmlToText : pas adapté au grec
+- JustText : pas adapté au chinois
+- zh == cn : code bigramme du chinois
+- La dépendance Maven de READABILITY n'a pas pu être résolue
+- Code de JustText récupéré sur https://github.com/miso-belica/jusText :
+$ wget https://github.com/miso-belica/jusText/archive/master.zip # download the sources
+$ unzip master.zip # extract the downloaded file
+$ jusText-master
+
