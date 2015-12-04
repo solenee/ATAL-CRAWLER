@@ -1,6 +1,4 @@
-Etape 1 : Récupération des pages web
-1) voir script_tp1.sh
-2) tp1.py
+Etape 1 : Récupération des pages web : crawl.py
 
 Etape 2 : Nettoyage 
 
