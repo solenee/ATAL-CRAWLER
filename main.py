@@ -1,6 +1,7 @@
 import tp1
 import tp2
 import extrinseque
+import os
 
 if __name__ == "__main__":
   print "============== Step 1 : Crawling"
@@ -41,5 +42,7 @@ if __name__ == "__main__":
   print "Evaluating Boilerpipe..."
   eval_extrinseque("Boilerpipe")
   print "Evaluating Golden files..."
+  os.system("eval.sh")
+  
   
   

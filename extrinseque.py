@@ -13,7 +13,8 @@ def eval_extrinseque(toolName, languagesList=None) :
         f.write(filename+"\t"+test_api.get_diagnosis(toolDir+"/"+lang+"/"+filename)+"\n")
         
 if __name__ == "__main__" :
-  #eval_extrinseque("justText")
-  #eval_extrinseque("Boilerpipe")
+  eval_extrinseque("justText")
+  eval_extrinseque("Boilerpipe")
   eval_extrinseque("Golden")
+  os.system("./eval.sh")
     
